@@ -12,27 +12,13 @@ The butterfly uses two servos, with each servo controlling one wing. A microphon
 
 ## Features
 
-* Wall-mounted butterfly design
-* Idle wing-flapping animation
+* Wall-mountable butterfly design
+* Idle wing-flapping animations
 * Faster flapping when loud noise is detected
 * Two-servo wing control
 * ESP32-based electronics
 * 3D-printed base and wing attachments
-* Paper or construction paper wings
-* Simple mechanical design using servo couplers
-
-## Hardware Used
-
-* ESP32
-* 2 positional servo motors
-* MAX9814 microphone
-* 3D-printed base
-* 3D-printed wing attachments
-* Construction paper or cardstock for wings
-* Male and Female wires
-* Hot glue
-* 9V Battery Pack
-* Soldering Iron
+* Construction paper wings
 
 ## Electrical
 
@@ -42,12 +28,12 @@ The ESP32 connects two servos and MAX9814. The Max9814 postive and negative conn
 
 * A base sized ~0.5 in x 3.5 in
 * Chamfers and fillets for easier printing
-* Servo outlet and plug clearances
+* Servo outlet and clearances
 * Wing attachment length around ~2.75 in
 * Rounded edges to avoid sharp corners
 * A coupler to connect the servo horn to the wing attachment
 
-The parts are intended to print on a Bambu Lab X1.
+The parts are intended to be printed on a Bambu Lab X1.
 
 <img width="838" height="733" alt="Cad" src="https://github.com/user-attachments/assets/aaefb64f-bbb3-4dfc-97a2-dbf7dee36a8d" />
 
@@ -61,12 +47,14 @@ Basic behavior:
 4. If a loud sound is detected, increase flap speed.
 5. Return to idle speed when the sound level goes back down.
 
+Right now, the code only has time-based animations, need to do more testing with the servos and microphone before doing any more changes.
+
 <img width="536" height="567" alt="code" src="https://github.com/user-attachments/assets/b0403f26-478e-4a5d-8825-906c46461b9e" />
 
 # BOM
 
-Part / Model                                                          | Unit Price | Total Price |
-------------------------------------                                  | ---------: | ----------: |
-MAX9814 Microphone Amplifier Module                                   | $12.99 CAD |  $12.99 CAD |
-ESP32                                                                 | $12.99 CAD |  $12.99 CAD |
-Studica 75002 Multi-Mode Smart Servo (Could find cheaper alternative) | $28.99 USD |  $57.98 USD |
+Part / Model                                                          | Unit Price  | Total Price |
+------------------------------------                                  | ---------:  | ----------: |
+MAX9814 Microphone Amplifier Module                                   | ~$12.99 CAD |  $12.99 CAD |
+ESP32                                                                 | ~$12.99 CAD |  $12.99 CAD |
+Studica 75002 Multi-Mode Smart Servo (Could find cheaper alternative) | ~$28.99 USD |  $57.98 USD |
