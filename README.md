@@ -55,6 +55,6 @@ Right now, the code only has time-based animations, need to do more testing with
 
 Part / Model                                                          | Unit Price  | Total Price |
 ------------------------------------                                  | ---------:  | ----------: |
-MAX9814 Microphone Amplifier Module                                   | ~$12.99 CAD |  $12.99 CAD |
+MAX9814 Microphone Amplifier Module                                   | ~$4.39 CAD  |  $4.39 CAD  |
 ESP32                                                                 | ~$12.99 CAD |  $12.99 CAD |
 Studica 75002 Multi-Mode Smart Servo (Could find cheaper alternative) | ~$28.99 USD |  $57.98 USD |
