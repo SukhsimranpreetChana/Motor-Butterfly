@@ -49,6 +49,8 @@ The ESP32 connects two servos and MAX9814. The Max9814 postive and negative conn
 
 The parts are intended to print on a Bambu Lab X1.
 
+<img width="838" height="733" alt="Cad" src="https://github.com/user-attachments/assets/aaefb64f-bbb3-4dfc-97a2-dbf7dee36a8d" />
+
 # Code 
 
 Basic behavior:
@@ -58,6 +60,8 @@ Basic behavior:
 3. Continuously read microphone levels.
 4. If a loud sound is detected, increase flap speed.
 5. Return to idle speed when the sound level goes back down.
+
+<img width="536" height="567" alt="code" src="https://github.com/user-attachments/assets/b0403f26-478e-4a5d-8825-906c46461b9e" />
 
 # BOM
 
